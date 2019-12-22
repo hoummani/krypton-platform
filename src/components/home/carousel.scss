@@ -1,0 +1,6 @@
+.svgImg{
+  transition: transform 2s; /* Animation */
+}
+.svgImg:hover{
+  transform: scale(1.04);
+}

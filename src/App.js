@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import './App.scss';
 // components
 import Navbar from './components/Core/Navbar';
+import Welcome from './components/home/Welcome';
+import CantactUS from './components/home/CantactUS';
 
 class App extends Component {
   constructor(props) {
@@ -15,8 +17,9 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <div className="container">
-          <h1>Hello from React js</h1>
+        <div className="core">
+          <Welcome />
+          <CantactUS />
         </div>
       </div>
     );
