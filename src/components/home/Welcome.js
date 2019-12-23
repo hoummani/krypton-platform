@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CarouselUI from './CarouselUI';
 import './welcome.scss';
 
@@ -27,10 +28,14 @@ const Welcome = () => {
                 style={{ marginRight: '5px' }}
                 type="button"
               >
-                Sign In
+                <Link className="has-text-white" to="/login">
+                  Sign In
+                </Link>
               </button>
               <button className="button is-secondary" type="button">
-                Create Account
+                <Link className="has-text-black" to="/register">
+                  Create Account
+                </Link>
               </button>
             </div>
           </div>

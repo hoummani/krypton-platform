@@ -1,5 +1,7 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import './navbar.scss';
 
 const Navbar = () => {
   return (
@@ -13,9 +15,10 @@ const Navbar = () => {
           <div className="navbar-item is-hoverable">
             <div className="level">
               <div className="level-left is-flex-mobile">
-                <i className="fas fa-atom" />
                 <div className="level-item">
-                  <span className="subtitle is-3 ">krypton</span>
+                  <span className="subtitle is-3 ">
+                    <i className="fas fa-atom rotating" /> krypton
+                  </span>
                 </div>
                 {/** 
                  * <img

@@ -3,9 +3,12 @@ import React, { Component } from 'react';
 
 import './App.scss';
 // components
+import { BrowserRouter, Route } from 'react-router-dom';
 import Navbar from './components/Core/Navbar';
-import Welcome from './components/home/Welcome';
-import CantactUS from './components/home/CantactUS';
+import Home from './components/home/Home';
+import Login from './components/auth/Login';
+import Footer from './components/Core/Footer';
+import Register from './components/auth/Register';
 
 class App extends Component {
   constructor(props) {
@@ -15,13 +18,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <div className="core">
-          <Welcome />
-          <CantactUS />
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
+          <div className="core">
+            <Route exact path="/" component={Home} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/register" component={Register} />
+            <Footer />
+          </div>
         </div>
-      </div>
+      </BrowserRouter>
     );
   }
 }

@@ -7,7 +7,6 @@
 /* eslint-disable no-useless-constructor */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import Img from 'react-image';
 
 import './carousel.scss';
 
@@ -41,7 +40,7 @@ class CarouselUI extends Component {
   render() {
     return (
       <div>
-        <Img src={this.state.src} className="svgImg" alt="" />
+        <img src={this.state.src} className="svgImg" alt="" />
       </div>
     );
   }

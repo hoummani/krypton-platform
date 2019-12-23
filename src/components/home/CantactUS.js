@@ -3,7 +3,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
-import Img from 'react-image';
 import './cantactUS.scss';
 
 const CantactUS = () => {
@@ -11,8 +10,9 @@ const CantactUS = () => {
     <div className="cantactus">
       <div className="columns">
         <div className="column">
-          <Img
-            src="/img/illustrations/layers.svg"
+          <br />
+          <img
+            src="/img/media/blockchain-concept.svg"
             alt="cantactus"
             className="imgHover"
           />
@@ -23,22 +23,6 @@ const CantactUS = () => {
           <br />
           <div className="card">
             <div className="card-content">
-              {/** 
-              <div className="media">
-                <div className="media-left">
-                  <figure className="image is-48x48">
-                    <Img
-                      src="https://bulma.io/images/placeholders/96x96.png"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div className="media-content">
-                  <p className="title is-4">John Smith</p>
-                  <p className="subtitle is-6">@johnsmith</p>
-                </div>
-              </div>
-              */}
               <div className="content">
                 <h1 className="title">Cantact us</h1>
                 <p className="">Feel free to send a plan text message</p>
@@ -56,6 +40,7 @@ const CantactUS = () => {
                             className="input"
                             type="text"
                             id="name"
+                            readOnly
                             placeholder="Name"
                           />
                           <span className="icon is-small is-left">
@@ -69,7 +54,7 @@ const CantactUS = () => {
                             className="input"
                             type="email"
                             placeholder="Email"
-                            value="alex@smith.com"
+                            defaultValue="alex@smith.com"
                           />
                           <span className="icon is-small is-left">
                             <i className="fas fa-envelope" />
@@ -91,6 +76,7 @@ const CantactUS = () => {
                             <input
                               className="input"
                               type="tel"
+                              readOnly
                               placeholder="Your phone number"
                             />
                           </p>
@@ -149,6 +135,7 @@ const CantactUS = () => {
                           <input
                             className="input"
                             type="text"
+                            readOnly
                             placeholder="e.g. Partnership opportunity"
                           />
                         </div>
@@ -165,6 +152,7 @@ const CantactUS = () => {
                         <div className="control">
                           <textarea
                             className="textarea"
+                            readOnly
                             placeholder="Explain how we can help you"
                           />
                         </div>
