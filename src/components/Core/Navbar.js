@@ -16,8 +16,8 @@ const Navbar = () => {
             <div className="level">
               <div className="level-left is-flex-mobile">
                 <div className="level-item">
-                  <span className="subtitle is-3 ">
-                    <i className="fas fa-atom rotating" /> krypton
+                  <span className="subtitle is-3 rotating">
+                    <i className="fas fa-landmark" /> krypton
                   </span>
                 </div>
                 {/** 

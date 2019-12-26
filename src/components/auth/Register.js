@@ -8,6 +8,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../Core/Navbar';
 
 class Register extends Component {
   constructor(props) {
@@ -16,7 +17,8 @@ class Register extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="register">
+        <Navbar />
         <br />
         <div className="container">
           <div className="card">

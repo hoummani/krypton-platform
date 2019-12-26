@@ -27,9 +27,22 @@
   }
 }
 .rotating {
-  -webkit-animation: rotating 7s linear infinite;
-  -moz-animation: rotating 7s linear infinite;
-  -ms-animation: rotating 7s linear infinite;
-  -o-animation: rotating 7s linear infinite;
-  animation: rotating 7s linear infinite;
+  //-webkit-animation: rotating 7s linear infinite;
+  //-moz-animation: rotating 7s linear infinite;
+  //-ms-animation: rotating 7s linear infinite;
+  //-o-animation: rotating 7s linear infinite;
+  //animation: rotating 7s linear infinite;
+  color: #22005b;
+}
+
+//dashboard navbar
+.beltNumber{
+  color: white;
+  position: relative;
+  font-size: small;
+  bottom: 5px;
+  right: -2px;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 0px 5px;
 }

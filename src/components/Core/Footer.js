@@ -14,6 +14,20 @@ const Footer = () => {
             The website content is licensed
             <a href="#"> CC BY NC SA 4.0</a>
           </p>
+          <div className="socialFooter">
+            <span className="icon is-secondary" style={{ marginRight: '10px' }}>
+              <i className="fab fa-2x fa-facebook-square" />
+            </span>
+            <span className="icon is-purple" style={{ marginRight: '10px' }}>
+              <i className="fab fa-2x fa-youtube-square" />
+            </span>
+            <span className="icon is-secondary" style={{ marginRight: '10px' }}>
+              <i className="fab fa-2x fa-twitter-square" />
+            </span>
+            <span className="icon">
+              <i className="fab fa-2x fa-github-square" />
+            </span>
+          </div>
         </div>
       </footer>
     </div>
