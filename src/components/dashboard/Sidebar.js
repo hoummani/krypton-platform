@@ -16,74 +16,90 @@ class Sidebar extends Component {
           <p className="menu-label">Account settings</p>
           <ul className="menu-list">
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-tachometer-alt" aria-hidden="true" />
-                </span>
-                Dashboard
-              </a>
+              <strong>
+                <a className="panel-block is-active" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-tachometer-alt" aria-hidden="true" />
+                  </span>
+                  Dashboard
+                </a>
+              </strong>
             </li>
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-user" aria-hidden="true" />
-                </span>
-                Profile
-              </a>
+              <strong>
+                <a className="panel-block" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-user" aria-hidden="true" />
+                  </span>
+                  Profile
+                </a>
+              </strong>
             </li>
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-cog" aria-hidden="true" />
-                  {/** <i class="fas fa-user-cog"></i> <i class="fas fa-cog"></i> */}
-                </span>
-                Security settings
-              </a>
+              <strong>
+                <a className="panel-block" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-cog" aria-hidden="true" />
+                    {/** <i class="fas fa-user-cog"></i> <i class="fas fa-cog"></i> */}
+                  </span>
+                  Security settings
+                </a>
+              </strong>
             </li>
           </ul>
           <hr />
           <p className="menu-label">Transactions</p>
           <ul className="menu-list">
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-wallet" aria-hidden="true" />
-                </span>
-                Payement
-              </a>
+              <strong>
+                <a className="panel-block" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-wallet" aria-hidden="true" />
+                  </span>
+                  Payement
+                </a>
+              </strong>
             </li>
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-mail-bulk" aria-hidden="true" />
-                </span>
-                Transfer
-              </a>
+              <strong>
+                <a className="panel-block" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-mail-bulk" aria-hidden="true" />
+                  </span>
+                  Transfer
+                </a>
+              </strong>
             </li>
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-bell" aria-hidden="true" />
-                </span>
-                Notifications
-              </a>
+              <strong>
+                <a className="panel-block" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-bell" aria-hidden="true" />
+                  </span>
+                  Notifications
+                </a>
+              </strong>
             </li>
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-coins" aria-hidden="true" />
-                  {/** <i class="fab fa-ethereum"></i> <i class="fas fa-wallet"></i> */}
-                </span>
-                Balance
-              </a>
+              <strong>
+                <a className="panel-block" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-coins" aria-hidden="true" />
+                    {/** <i class="fab fa-ethereum"></i> <i class="fas fa-wallet"></i> */}
+                  </span>
+                  Balance
+                </a>
+              </strong>
             </li>
             <li>
-              <a className="panel-block" href="#">
-                <span className="panel-icon">
-                  <i className="fas fa-sign-out-alt" aria-hidden="true" />
-                </span>
-                Log out
-              </a>
+              <strong>
+                <a className="panel-block" href="#">
+                  <span className="panel-icon">
+                    <i className="fas fa-sign-out-alt" aria-hidden="true" />
+                  </span>
+                  Log out
+                </a>
+              </strong>
             </li>
           </ul>
         </aside>

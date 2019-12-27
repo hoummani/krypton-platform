@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar';
 import DashNavbar from '../Core/DashNavbar';
-import Profile from '../auth/Profile';
+import DashHome from './DashHome';
 
 class Dashboard extends Component {
   constructor(props) {
@@ -27,8 +27,8 @@ class Dashboard extends Component {
             <Sidebar />
           </div>
           <div className="column" style={{ marginTop: '60px' }}>
-            <div className="">
-              <Profile />
+            <div className="dashboard_container">
+              <DashHome />
             </div>
           </div>
         </div>

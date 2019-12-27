@@ -36,7 +36,7 @@ const DashNavbar = props => {
                 <div className="level-item">
                   <span className="subtitle is-3 rotating">
                     {/** <i class="fas fa-cube"></i> <i class="fas fa-landmark"></i> fas fa-atom rotating */}
-                    <i className="fas fa-landmark" /> krypton
+                    <i className="fab fa-ethereum" /> krypton
                   </span>
                 </div>
                 {/** 

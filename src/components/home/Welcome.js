@@ -29,12 +29,12 @@ const Welcome = () => {
                 type="button"
               >
                 <Link className="has-text-white" to="/login">
-                  Sign In
+                  <strong>Sign In</strong>
                 </Link>
               </button>
               <button className="button is-secondary" type="button">
                 <Link className="has-text-black" to="/register">
-                  Create Account
+                  <strong>Create Account</strong>
                 </Link>
               </button>
             </div>
