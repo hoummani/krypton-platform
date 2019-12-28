@@ -40,8 +40,8 @@ const DashNavbar = props => {
               <div className="level-left is-flex-mobile">
                 <div className="level-item">
                   <span className="subtitle is-3 rotating">
-                    {/** <i class="fas fa-cube"></i> <i class="fas fa-landmark"></i> fas fa-atom rotating */}
-                    <i className="fab fa-ethereum" /> krypton
+                    {/** <i class="fas fa-cube"></i> <i class="fas fa-landmark"> fab fa-ethereum </i> fas fa-atom rotating */}
+                    <i className="fas fa-cube" /> krypton
                   </span>
                 </div>
                 {/** 

@@ -19,7 +19,7 @@ const Sidebar = props => {
           <li>
             <strong>
               <a
-                className="panel-block is-active"
+                className="panel-block aLink"
                 href="#"
                 onClick={handleDashboard}
               >
@@ -32,7 +32,7 @@ const Sidebar = props => {
           </li>
           <li>
             <strong>
-              <a className="panel-block" href="#" onClick={handleProfile}>
+              <a className="panel-block aLink" href="#" onClick={handleProfile}>
                 <span className="panel-icon">
                   <i className="fas fa-user" aria-hidden="true" />
                 </span>

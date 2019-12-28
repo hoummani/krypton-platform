@@ -58,6 +58,8 @@ class Dashboard extends Component {
             <Sidebar
               triggerDash={this.props.triggerDash}
               triggerProfile={this.props.triggerProfile}
+              isDashborad={this.props.UiReducer.isDashborad}
+              isProfile={this.props.UiReducer.isProfile}
             />
           </div>
           <div className="column" style={{ marginTop: '60px' }}>
