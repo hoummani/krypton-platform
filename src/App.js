@@ -9,7 +9,7 @@ import Home from './components/home/Home';
 import Login from './components/auth/Login';
 import Footer from './components/Core/Footer';
 import Register from './components/auth/Register';
-import Dashboard from './components/dashboard/Dashboard';
+import Dashboard from './containers/dashboard/Dashboard';
 import FourOFour from './components/Core/FourOFour';
 
 class App extends Component {

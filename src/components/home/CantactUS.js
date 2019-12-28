@@ -12,9 +12,10 @@ const CantactUS = () => {
         <div className="column">
           <br />
           <img
-            src="/img/media/blockchain-concept.svg"
+            src="/img/media/layers.png"
             alt="cantactus"
             className="imgHover"
+            style={{ boxShadow: '0px' }}
           />
         </div>
         {/** cantact form */}

@@ -1,3 +1,39 @@
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotateX(-10deg);
+    -o-transform: rotateX(-10deg);
+    transform: rotateX(-10deg);
+  }
+  to {
+    -webkit-transform: rotateX(10deg);
+    -o-transform: rotateX(10deg);
+    transform: rotateX(10deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotateX(-10deg);
+    -moz-transform: rotateX(-10deg);
+    -webkit-transform: rotateX(-10deg);
+    -o-transform: rotateX(-10deg);
+    transform: rotateX(-10deg);
+  }
+  to {
+    -ms-transform: rotateX(10deg);
+    -moz-transform: rotateX(10deg);
+    -webkit-transform: rotateX(10deg);
+    -o-transform: rotateX(10deg);
+    transform: rotateX(10deg);
+  }
+}
+.rotatingSVG {
+  -webkit-animation: rotating 7s  infinite;
+  -moz-animation: rotating 7s  infinite;
+  -ms-animation: rotating 7s  infinite;
+  -o-animation: rotating 7s  infinite;
+  animation: rotating 7s  infinite;
+}
+
 .svgImg{
   transition: transform 2s; /* Animation */
 }

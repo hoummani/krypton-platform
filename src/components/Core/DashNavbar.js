@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/prop-types */
 /* eslint-disable no-else-return */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -6,17 +8,20 @@ import React from 'react';
 import './navbar.scss';
 
 const DashNavbar = props => {
+  const handleBellClick = () => {
+    props.dashNotify();
+  };
   const Notif = () => {
     if (props.notification > 0) {
       return (
-        <a className="button is-rounded">
+        <a className="button is-rounded" onClick={handleBellClick}>
           <i className="fas fa-bell" />
           <span className="beltNumber">{props.notification}</span>
         </a>
       );
     } else {
       return (
-        <a className="button is-rounded">
+        <a className="button is-rounded" onClick={handleBellClick}>
           <i className="fas fa-bell" />
         </a>
       );

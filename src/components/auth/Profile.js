@@ -11,47 +11,6 @@ class Profile extends Component {
     return (
       <div className="profile">
         <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
-        <p>profile</p>
       </div>
     );
   }

@@ -1,6 +1,18 @@
-export default function renderComponent(name) {
+/* eslint-disable import/prefer-default-export */
+export function dashNotify() {
   return {
-    type: 'RENDER_DASHBOARD',
-    payload: name
+    type: 'DASH_NOTIFY'
+  };
+}
+
+export function triggerDash() {
+  return {
+    type: 'TRIGGER_DASH'
+  };
+}
+
+export function triggerProfile() {
+  return {
+    type: 'TRIGGER_PROFILE'
   };
 }

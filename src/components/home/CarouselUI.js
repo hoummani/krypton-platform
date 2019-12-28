@@ -20,10 +20,10 @@ class CarouselUI extends Component {
 
   updateSrc() {
     const images = [
-      '/img/illustrations/krypton-token-network.svg',
       '/img/illustrations/krypton-app.svg',
       '/img/illustrations/krytpon-platform.svg',
-      '/img/illustrations/crypto-mining.svg'
+      '/img/illustrations/crypto-mining.svg',
+      '/img/illustrations/krypton-token-network.svg'
     ];
     // eslint-disable-next-line array-callback-return
     // eslint-disable-next-line no-plusplus
