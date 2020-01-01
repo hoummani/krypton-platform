@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.cardHeader {
+  /*
+  background: $primary;
+  background: -webkit-linear-gradient(to right, $primary, $primary-accent) !important;
+  background: linear-gradient(to right, $primary, $primary-accent) !important; 
+  */
+  background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c33764, #1d2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*
+hsl(0, 0%, 96%)
+
+
+*/
+
+.transactionsHistory {
+  padding: 15px 5px;
+}
+.quickActions {
+  // background-color: hsl(0, 0%, 86%);
+  padding-left: 10px ;
+  background: hsl(0, 0%, 96%); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsl(0, 0%, 96%), hsl(0, 0%, 86%)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsl(0, 0%, 96%), hsl(0, 0%, 86%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

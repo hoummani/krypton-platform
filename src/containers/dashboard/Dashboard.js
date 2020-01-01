@@ -14,7 +14,8 @@ import {
 import Sidebar from '../../components/dashboard/Sidebar';
 import DashNavbar from '../../components/Core/DashNavbar';
 import DashHome from './DashHome';
-import Profile from '../../components/auth/Profile';
+import Profile from '../../components/dashboard/Profile';
+import '../../components/dashboard/dashboard.scss';
 
 class Dashboard extends Component {
   constructor() {

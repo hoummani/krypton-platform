@@ -5,13 +5,13 @@ import React from 'react';
 
 const TransactionsHistory = () => {
   return (
-    <div className="container">
+    <div className="transactionsHistory">
       <article className="media">
         <figure className="media-left">
           <p className="image is-64x64">
             <img
               className="is-rounded"
-              src="https://bulma.io/images/placeholders/128x128.png"
+              src="./img/core/joshua.svg"
               alt="media"
             />
           </p>
@@ -47,7 +47,7 @@ const TransactionsHistory = () => {
           <p className="image is-64x64">
             <img
               className="is-rounded"
-              src="https://bulma.io/images/placeholders/128x128.png"
+              src="./img/core/joshua.svg"
               alt="media"
             />
           </p>
@@ -83,7 +83,7 @@ const TransactionsHistory = () => {
           <p className="image is-64x64">
             <img
               className="is-rounded"
-              src="https://bulma.io/images/placeholders/128x128.png"
+              src="./img/core/joshua.svg"
               alt="media"
             />
           </p>

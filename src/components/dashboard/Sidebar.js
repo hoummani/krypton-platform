@@ -61,7 +61,7 @@ const Sidebar = props => {
                 <span className="panel-icon">
                   <i className="fas fa-wallet" aria-hidden="true" />
                 </span>
-                Payement
+                Pay Services
               </a>
             </strong>
           </li>

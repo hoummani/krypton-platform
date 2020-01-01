@@ -8,11 +8,13 @@ const Accounts = () => {
       <div className="columns">
         <div className="column">
           <div className="card">
-            <header className="card-header">
-              <p className="card-header-title">Primary Account</p>
+            <header className="card-header cardHeader">
+              <p className="card-header-title has-text-white">
+                Primary Account
+              </p>
               <a
                 href="#"
-                className="card-header-icon"
+                className="card-header-icon has-text-white"
                 aria-label="more options"
               >
                 <span className="icon">
@@ -38,11 +40,11 @@ const Accounts = () => {
         </div>
         <div className="column is-hidden-touch">
           <div className="card">
-            <header className="card-header">
-              <p className="card-header-title">Saving Account</p>
+            <header className="card-header cardHeader">
+              <p className="card-header-title has-text-white">Saving Account</p>
               <a
                 href="#"
-                className="card-header-icon"
+                className="card-header-icon has-text-white"
                 aria-label="more options"
               >
                 <span className="icon">
@@ -65,11 +67,13 @@ const Accounts = () => {
         </div>
         <div className="column">
           <div className="card">
-            <header className="card-header">
-              <p className="card-header-title">Totally</p>
+            <header className="card-header cardHeader">
+              <p className="card-header-title has-text-white">
+                Totally Balence
+              </p>
               <a
                 href="#"
-                className="card-header-icon"
+                className="card-header-icon has-text-white"
                 aria-label="more options"
               >
                 <span className="icon">
@@ -79,7 +83,7 @@ const Accounts = () => {
             </header>
             <div className="card-content">
               <div className="content">
-                <h2 className="subtitle">Balance : -12454 kr</h2>
+                <h2 className="subtitle has-text-primary">-12454 kr</h2>
               </div>
             </div>
           </div>
