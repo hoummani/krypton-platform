@@ -1,16 +1,12 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/control-has-associated-label */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable react/require-default-props */
-/* eslint-disable react/no-deprecated */
-/* eslint-disable react/self-closing-comp */
 /* eslint-disable react/button-has-type */
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from 'react';
 
-// eslint-disable-next-line react/prop-types
-const DepositModal = ({
+const TransactionToSomeOneModal = ({
   children,
   closeModal,
   saveModal,
@@ -33,7 +29,7 @@ const DepositModal = ({
         </section>
         <footer className="modal-card-foot">
           <a className="button is-primary" onClick={saveModal}>
-            <strong>Save</strong>
+            <strong>Make Transaction</strong>
           </a>
           <a className="button is-light" onClick={closeModal}>
             <strong>Cancel</strong>
@@ -44,4 +40,4 @@ const DepositModal = ({
   );
 };
 
-export default DepositModal;
+export default TransactionToSomeOneModal;
