@@ -40,7 +40,12 @@ class CarouselUI extends Component {
   render() {
     return (
       <div>
-        <img src={this.state.src} className="svgImg" alt="" />
+        <img
+          src={this.state.src}
+          className="svgImg"
+          style={{ boxShadow: 'none' }}
+          alt=""
+        />
       </div>
     );
   }

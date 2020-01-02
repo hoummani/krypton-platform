@@ -38,7 +38,7 @@ const DashNavbar = props => {
           <div className="navbar-item is-hoverable">
             <div className="level">
               <div className="level-left is-flex-mobile">
-                <div className="level-item">
+                <div className="level-item" style={{ cursor: 'pointer' }}>
                   <span className="subtitle is-3 rotating">
                     {/** <i class="fas fa-cube"></i> <i class="fas fa-landmark"> fab fa-ethereum </i> fas fa-atom rotating */}
                     <i className="fas fa-cube" /> krypton

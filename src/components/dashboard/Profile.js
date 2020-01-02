@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-useless-constructor */
@@ -9,7 +10,7 @@ const Profile = () => {
   return (
     <div className="profile">
       <div className="card">
-        <header className="card-header cardHeader">
+        <header className="card-header cardHeaderBack">
           <p className="card-header-title has-text-white">Account Details</p>
           <a
             href="#"
@@ -34,6 +35,9 @@ const Profile = () => {
                 <p className="menu-label is-uppercase	has-text-weight-bold">
                   Address : <strong>21 rue azib darai</strong>
                 </p>
+                <p className="menu-label is-uppercase	has-text-weight-bold">
+                  Primary Account Address : <strong>4567898676906745</strong>
+                </p>
               </div>
               <div className="column">
                 <p className="menu-label is-uppercase	has-text-weight-bold">
@@ -43,7 +47,8 @@ const Profile = () => {
                   Phone : <strong>0967565465</strong>
                 </p>
                 <p className="menu-label is-uppercase	has-text-weight-bold">
-                  Status : <span class="tag is-danger is-light">Inactive</span>
+                  Status :{' '}
+                  <span className="tag is-danger is-light">Inactive</span>
                 </p>
               </div>
             </div>
@@ -58,7 +63,9 @@ const Profile = () => {
       <br />
       <hr />
       <div className="accountSettings">
-        <p className="menu-label is-uppercase	has-text-weight-bold">Account settings</p>
+        <p className="menu-label is-uppercase	has-text-weight-bold">
+          Account settings
+        </p>
         <AccountSettings />
       </div>
     </div>

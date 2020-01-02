@@ -15,14 +15,14 @@ const CantactUS = () => {
             src="/img/media/layers.png"
             alt="cantactus"
             className="imgHover"
-            style={{ boxShadow: '0px' }}
+            style={{ boxShadow: 'none' }}
           />
         </div>
         {/** cantact form */}
         <div className="column">
           <br />
           <br />
-          <div className="card">
+          <div className="">
             <div className="card-content">
               <div className="content">
                 <h1 className="title">Cantact us</h1>

@@ -28,9 +28,9 @@ const AccountSettings = () => {
           <button className="button" type="button">
             <strong>
               <span style={{ marginRight: '3px' }}>
-                <i className="fas fa-dolly" />
+                <i className="fas fa-credit-card" />
               </span>
-              Make Order
+              Add Saving Account
             </strong>
           </button>
         </div>
