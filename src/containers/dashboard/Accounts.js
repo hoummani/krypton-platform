@@ -11,7 +11,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 import DepositModal from '../../components/dashboard/Modals/DepositModal';
-import DepositModalFprm from './forms/DepositModalForm';
+import DepositModalForm from './forms/DepositModalForm';
 
 class Accounts extends Component {
   constructor(props) {
@@ -88,7 +88,7 @@ class Accounts extends Component {
             modalState={this.state.modalState}
             title="Deposit to my Account"
           >
-            <DepositModalFprm />
+            <DepositModalForm />
           </DepositModal>
           <div className="column">
             <div className="card">
