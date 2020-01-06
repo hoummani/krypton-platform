@@ -86,7 +86,7 @@ class Accounts extends Component {
             closeModal={this.toggleModal}
             saveModal={this.saveModal}
             modalState={this.state.modalState}
-            title="Deposit to my Account"
+            title="Deposit to my primary Account"
           >
             <DepositModalForm />
           </DepositModal>

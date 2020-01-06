@@ -9,7 +9,7 @@ import React from 'react';
 const TransactionToSomeOneModal = ({
   children,
   closeModal,
-  saveModal,
+  makeTransaction,
   modalState,
   title
 }) => {
@@ -28,7 +28,7 @@ const TransactionToSomeOneModal = ({
           <div className="content">{children}</div>
         </section>
         <footer className="modal-card-foot">
-          <a className="button is-primary" onClick={saveModal}>
+          <a className="button is-primary" onClick={makeTransaction}>
             <strong>Make Transaction</strong>
           </a>
           <a className="button is-light" onClick={closeModal}>

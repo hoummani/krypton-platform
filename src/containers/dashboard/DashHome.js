@@ -1,5 +1,6 @@
 import React from 'react';
-import Accounts from '../../components/dashboard/Accounts';
+
+import Accounts from './Accounts';
 import QuickActions from '../../components/dashboard/QuickActions';
 import TransactionsHistory from '../../components/dashboard/TransactionsHistory';
 import LiveCurrency from '../../components/dashboard/LiveCurrency';
