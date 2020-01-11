@@ -8,7 +8,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../Core/Navbar';
+import Navbar from '../../components/Core/Navbar';
 
 class Login extends Component {
   constructor(props) {

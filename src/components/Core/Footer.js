@@ -10,7 +10,7 @@ const Footer = () => {
           <p>
             <strong>Krypton</strong>
             <a href="#"> open-source platform</a>. The source code is licensed
-            <a href="#">MIT</a>
+            <a href="#"> MIT </a>
             The website content is licensed
             <a href="#"> CC BY NC SA 4.0</a>
           </p>
